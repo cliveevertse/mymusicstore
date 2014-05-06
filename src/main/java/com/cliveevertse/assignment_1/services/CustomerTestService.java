@@ -9,6 +9,6 @@ package com.cliveevertse.assignment_1.services;
  * @author Clive
  */
 public interface CustomerTestService {
-    public String retriveCustomerAddress(String customerNumber, String type);
-    public String retriveCustomerCellNumber(String customerNumber);  
+  
+     
 }

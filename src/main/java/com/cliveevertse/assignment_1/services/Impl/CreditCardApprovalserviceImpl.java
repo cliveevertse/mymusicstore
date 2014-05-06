@@ -5,19 +5,21 @@
 package com.cliveevertse.assignment_1.services.Impl;
 
 
+import com.cliveevertse.assignment_1.app.exceptions.CreditCardRejectionException;
 import com.cliveevertse.assignment_1.model.CreditCard;
 import com.cliveevertse.assignment_1.services.CreditCardApprovalService;
 import com.cliveevertse.assignment_1.services.crud.CreditCardCrudService;
 import java.math.BigDecimal;
 import java.util.Date;
+import javax.xml.ws.Service;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.stereotype.Service;
+
 
 /**
  *
  * @author Clive
  */
-@Service("creditCardApprovalService")
+
 public class CreditCardApprovalserviceImpl implements CreditCardApprovalService {
     // Inject the CRUD Service 
 
